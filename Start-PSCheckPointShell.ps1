@@ -88,7 +88,8 @@ function Get-CheckPointCommands {
 }
 
 Write-Host "Some commands:" -ForegroundColor Cyan
-Write-Host "  Connect-ManagementCUI   Connect to management servers"
+Write-Host "  Connect-ManagementCUI   Connect to management servers (resets existing connections)"
+Write-Host "  Add-ManagementCUI       Add a management server to existing connections"
 Write-Host "  Save-Config             Save current connections to config file"
 Write-Host "  Get-CheckPointCommands  List all available Check Point commands"
 Write-Host ""
